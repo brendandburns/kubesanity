@@ -9,7 +9,7 @@ It runs across a cluster and performs some basic (really basic for now) sanity c
 ### Usage
 
 ```sh
-docker run -v ${HOME}:/root brendanburns/kube-sanity:0.1.0
+docker run -v ${HOME}/.kube:/root/.kube:ro brendanburns/kube-sanity:0.1.0
 ```
 
 ### Current Assertions
